@@ -22,7 +22,7 @@ public class DataGen {
 		System.out.println("Connection to database created..." + new Date());
 		pullDataObj.openResultSet("select * from customers");
 		System.out.println("Query executed..." + new Date());
-		pullDataObj.fetchData();
+		pullDataObj.fetchCustomerData();
 		System.out.println("Data copied to xml..." + new Date());
 		pullDataObj.closeResultSet();
 		pullDataObj.closeConnection();

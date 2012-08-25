@@ -115,7 +115,7 @@ public class OraclePullData {
 		return 0;
 	}
 	
-	public int fetchData() {
+	public int fetchCustomerData() {
 		Integer tempInteger;
 		String tempString;
 		Date tempDate;
